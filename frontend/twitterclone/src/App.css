@@ -1,0 +1,31 @@
+/* App.css */
+
+/* Global styles */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+.App.dark input {
+    background-color: #444; /* Adjust the background color to match your dark theme */
+    color: #fff; /* Set text color to white for better visibility */
+}
+
+/* Light mode styles */
+.App.light {
+    background-color: #ffffff;
+    color: #333333;
+}
+.App.light input {
+    background-color: #fff;
+    color: #333;
+}
+/* Dark mode styles */
+.App.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Additional dark mode styles */
+.dark-mode {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
